@@ -1,0 +1,41 @@
+
+h1{
+    text-align: center;
+    border:solid;
+    width: 100;
+    color:firebrick;
+    text-decoration:red wavy underline;
+    letter-spacing: normal;
+    font-family: avant grade,didot,sans-serif;
+
+}
+h2{
+    text-align: right;
+    border: solid;
+    width: 50;
+    color:magenta;
+    background-color: black;
+    font-weight: lighter;
+    text-decoration:rgb(255, 0, 0) dotted overline;
+    font-family: fantasy;
+
+}
+p{
+    color: rgb(0, 0, 255);
+    text-decoration: red dotted underline;
+    line-height:normal;
+    letter-spacing: normal;
+    font-size: normal;
+    font-family: sans-serif;
+}
+h3{
+    text-align: right;
+    border: solid ;
+    width: 30;
+    color: black;
+    background-color: wheat;
+    text-decoration:rgb(255, 0, 0) double line-through;
+}
+a{
+    text-decoration: none;
+}
