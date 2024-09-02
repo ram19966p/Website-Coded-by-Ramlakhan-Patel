@@ -1,0 +1,42 @@
+/* div{
+    height: 400px;
+    width: 400px;
+    background-color: greenyellow;
+    margin: 10px auto;
+    background-image: url("cat.jpg");
+    background-size:contain;
+    background-size: cover;
+    color: white;
+    
+    /* 1.contain mean image set to  crop x and crop y and repeat 
+   2. cover mean crop and scale x
+   3. auto mean image streach 
+    
+} */
+
+
+
+div{
+    height : 100px;
+    width: 100px;
+    background-color: rebeccapurple;
+    text-align: center;
+    border:3px solid black;
+    display: inline-block;
+}
+#static{
+    background-color: red;
+    position: static;
+    top: 100px;
+    left: 100px;
+}
+#Relative{
+    background-color: pink;
+    position: relative;
+    top:100px;
+    left:100px; 
+    
+
+}
+
+
