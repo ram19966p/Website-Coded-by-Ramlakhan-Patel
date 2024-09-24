@@ -1,0 +1,46 @@
+#cantainer{
+    background-color: rgb(146, 184, 184);
+    width: 80%;
+    height: 600px;
+    margin: 10px auto;
+    border: 2px black ;
+    display: flex;
+    flex-direction: column ; 
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; 
+    justify-content: start;*/
+    /* flex-wrap: wrap;  */
+    /* flex-wrap: nowrap;
+    flex-wrap: wrap-reverse; */
+    /* align-items: flex-start;
+    align-items: flex-end ; */
+    /* align-items: center; */
+     /* align-content: flex-start; */
+     /* align-content: flex-end; */
+     align-content: center;
+}
+ h1{
+    text-align: center;
+ }
+ #red{
+  /* align-self: center; */
+  /* flex-basis: 50px; */
+  /* flex-grow: 2;
+  max-width: 300px; */ 
+  flex-shrink: 3;
+ }
+ #pink{
+   /* flex-grow: 1;
+   min-width: 200px; */
+   /* flex-shrink: 2; */
+   flex: 2 2 100px;
+ }
+
+ #cantainer div {
+    height: 100px;
+    width: 200px;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+ }
