@@ -1,0 +1,21 @@
+.cantainer{
+    height: 50px;
+    width: 900px;
+    background-color: pink;
+    border: 5px solid skyblue;
+    border-radius: 10px;
+    flex-direction: row ; 
+    display: flex;
+  align-self: center;
+   justify-content: flex-start;
+}
+
+.cantainer div{
+    height: 50px;
+    width: 80px;
+    border: 10px;
+    margin-left: 5px;
+font-size: 24px;
+line-height: 50px;
+
+}
