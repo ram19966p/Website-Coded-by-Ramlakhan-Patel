@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: rgba(100, 148, 237, 0.436);
+}
+
+#nav{
+    height: 100px;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+#nav img{
+    height: 60px;
+    border-radius: 40px;
+}
+#nav button{
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: cadetblue;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 20px;
+    transition: all ease 1s;
+}
+#nav button:hover{
+    background-color: brown;
+}
